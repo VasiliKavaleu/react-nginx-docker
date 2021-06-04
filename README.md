@@ -2,7 +2,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+Let’s build the project with this command
+### `docker build -t react-ui`
+
+And you can run the project with this command
+
+### `docker run -d --name reactui -p 80:80 react-ui`
+
+You can run the app on http://localhost:80
+
+Also in the project directory, you can run:
 
 ### `npm start`
 
